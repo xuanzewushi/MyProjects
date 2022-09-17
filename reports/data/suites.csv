@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 15 18:13:01 CST 2022","Thu Sep 15 18:13:01 CST 2022","16","animal001.test_api.test_module01_login","test_module01_01_login","TestLogin","","","用户成功正常登陆",""
+"passed","Thu Sep 15 18:13:01 CST 2022","Thu Sep 15 18:13:01 CST 2022","16","animal001.test_api.test_module02_getanimaldata","test_module02_01_animal_data","TestAnimalData","","","成功获取动物信息",""
+"passed","Thu Sep 15 18:13:01 CST 2022","Thu Sep 15 18:13:01 CST 2022","15","animal001.test_api.test_module02_getanimaldata","test_module02_02_user_data","TestUserData","","","成功获取用户信息",""
+"passed","Thu Sep 15 18:13:01 CST 2022","Thu Sep 15 18:13:01 CST 2022","16","animal001.test_api.test_module02_getanimaldata","test_module02_02_user_data","TestUserData","","","成功获取用户信息",""
+"passed","Thu Sep 15 18:13:01 CST 2022","Thu Sep 15 18:13:01 CST 2022","31","animal001.test_api.test_module02_getanimaldata","test_module02_01_animal_data","TestAnimalData","","","成功获取动物信息",""
+"passed","Thu Sep 15 18:13:01 CST 2022","Thu Sep 15 18:13:01 CST 2022","31","animal001.test_api.test_module01_login","test_module01_01_login","TestLogin","","","用户成功正常登陆",""

@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"1d3a6c244b1d39e0233356192a527d71","name":"animal001.test_api.test_module02_getanimaldata","statistic":{"failed":0,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":4}},{"uid":"670595c8f69bf9909a6e152557295be7","name":"animal001.test_api.test_module01_login","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

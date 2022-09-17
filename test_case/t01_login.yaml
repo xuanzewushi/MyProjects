@@ -1,0 +1,18 @@
+-
+  testname: 普通用户成功登陆
+  method: post
+  url: http://127.0.0.1:4523/m1/1581805-0-default/login
+  params: {"username": 18312182420, "password": 123456}
+  headers: None
+  data: None
+  file: None
+  Assert: {"code": 200}
+-
+  testname: 管理员成功登陆
+  method: post
+  url: http://127.0.0.1:4523/m1/1581805-0-default/login
+  params: {"username": admin, "password": admin}
+  headers: None
+  data: None
+  file: None
+  Assert: {"code": 200}

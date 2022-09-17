@@ -1,0 +1,18 @@
+-
+  testname: 普通用户成功获取动物信息
+  method: get
+  url: http://127.0.0.1:4523/m1/1581805-0-default/get/data
+  params: {'user_id': !p_user_id p_user_id.yaml}
+  headers: None
+  data: None
+  file: None
+  Assert: {"code": 200}
+-
+  testname: 管理员成功获取动物信息
+  method: get
+  url: http://127.0.0.1:4523/m1/1581805-0-default/get/data
+  params: {'user_id': !p_user_id p_user_id.yaml}
+  headers: None
+  data: None
+  file: None
+  Assert: {"code": 200}

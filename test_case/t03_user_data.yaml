@@ -1,0 +1,19 @@
+-
+  testname: 普通用户成功获取账号信息
+  method: get
+  url: http://127.0.0.1:4523/m1/1581805-0-default/finduserdata
+  params: None
+  headers:
+    'user_id': !p_user_id p_user_id.yaml
+  data: None
+  file: None
+  Assert: {"code": 200}
+-
+  testname: 普通用户成功获取账号信息
+  method: get
+  url: http://127.0.0.1:4523/m1/1581805-0-default/finduserdata
+  params: None
+  headers: {'user_id': !admin_user_id admin_user_id.yaml}
+  data: None
+  file: None
+  Assert: {"code": 200}
