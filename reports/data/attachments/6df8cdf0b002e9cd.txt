@@ -1,0 +1,10 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4523 "POST /m1/1581805-0-default/login HTTP/1.1" 200 50
+INFO     root:my_log.py:44 ========================================用例执行结束========================================
+INFO     root:my_log.py:44 case:账号密码为空
+INFO     root:my_log.py:44 url:http://127.0.0.1:4523/m1/1581805-0-default/login
+INFO     root:my_log.py:44 method:post
+INFO     root:my_log.py:44 params:{'username': None, 'password': None}
+INFO     root:my_log.py:44 expected_result:{'code': 401}
+INFO     root:my_log.py:44 Actual results：{'code': 401, 'error': '账号密码不可以为空'}
+INFO     root:my_log.py:44 测试结果：测试通过
+INFO     root:my_log.py:44 ========================================用例执行结束========================================

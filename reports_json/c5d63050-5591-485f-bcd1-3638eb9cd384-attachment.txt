@@ -1,0 +1,21 @@
+INFO     root:my_log.py:44 ========================================开始执行接口自动化测试========================================
+INFO     root:my_log.py:44 ========================================清除旧的登录数据，并写入登录数据信息============================
+INFO     root:my_log.py:44 Clean data successfully for ./test_case/case/cookie_login_case/cookie.yaml.
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:4523
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4523 "POST /m1/1581805-0-default/login?username=admin&password=admin HTTP/1.1" 200 116
+INFO     root:my_log.py:44 Successfully for write data.
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:4523
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4523 "POST /m1/1581805-0-default/login?username=18312182420&password=123456 HTTP/1.1" 200 123
+INFO     root:my_log.py:44 Successfully for write data.
+INFO     root:my_log.py:44 ========================================登录数据信息写入结束==========================================
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:4523
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4523 "GET /m1/1581805-0-default/get/data?user_id=10002 HTTP/1.1" 200 282
+INFO     root:my_log.py:44 ========================================用例执行结束========================================
+INFO     root:my_log.py:44 case:成功获取普通用户的动物数据
+INFO     root:my_log.py:44 url:http://127.0.0.1:4523/m1/1581805-0-default/get/data
+INFO     root:my_log.py:44 method:get
+INFO     root:my_log.py:44 params:{'user_id': '10002'}
+INFO     root:my_log.py:44 expected_result:{'code': 200}
+INFO     root:my_log.py:44 Actual results：{'code': 200, 'username': '18312182420', 'user_id': 10002, 'data': [{'animal': 'cat', 'animal_name': '小猫', 'age': '1', 'price': 10000, 'sell': 0}, {'animal': 'dog', 'animal_name': '小狗', 'age': '2', 'price': 5000, 'sell': 0}, {'animal': 'dog', 'animal_name': '小小狗', 'age': '1', 'price': 2000, 'sell': 1}]}
+INFO     root:my_log.py:44 测试结果：测试通过
+INFO     root:my_log.py:44 ========================================用例执行结束========================================

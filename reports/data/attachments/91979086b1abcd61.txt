@@ -1,0 +1,10 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4523 "GET /m1/1581805-0-default/get/data?user_id=10001 HTTP/1.1" 200 130
+INFO     root:my_log.py:44 ========================================用例执行结束========================================
+INFO     root:my_log.py:44 case:成功获取管理员的动物数据
+INFO     root:my_log.py:44 url:http://127.0.0.1:4523/m1/1581805-0-default/get/data
+INFO     root:my_log.py:44 method:get
+INFO     root:my_log.py:44 params:{'user_id': '10001'}
+INFO     root:my_log.py:44 expected_result:{'code': 200}
+INFO     root:my_log.py:44 Actual results：{'code': 200, 'username': 'admin', 'user_id': 10001, 'data': [{'animal': 'cat', 'animal_name': '小cat', 'age': '1.5', 'price': 8000, 'sell': 1}]}
+INFO     root:my_log.py:44 测试结果：测试通过
+INFO     root:my_log.py:44 ========================================用例执行结束========================================

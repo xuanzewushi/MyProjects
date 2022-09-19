@@ -1,0 +1,24 @@
+-
+  case: 成功获取普通用户的动物数据
+  url: http://127.0.0.1:4523/m1/1581805-0-default/get/data
+  method: get
+  params:
+    user_id: !user_id user_id.yaml
+  expected_result:
+    code: 200
+-
+  case: 成功获取管理员的动物数据
+  url: http://127.0.0.1:4523/m1/1581805-0-default/get/data
+  method: get
+  params:
+    user_id: !admin_id admin_id.yaml
+  expected_result:
+    code: 200
+-
+  case: 必传参数为空，返回404
+  url: http://127.0.0.1:4523/m1/1581805-0-default/get/data
+  method: get
+  params:
+    user_id:
+  expected_result:
+    code: 404

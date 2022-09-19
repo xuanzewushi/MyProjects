@@ -1,0 +1,10 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4523 "POST /m1/1581805-0-default/login?username=admin&password=admin HTTP/1.1" 200 116
+INFO     root:my_log.py:44 ========================================用例执行结束========================================
+INFO     root:my_log.py:44 case:管理员身份成功登陆
+INFO     root:my_log.py:44 url:http://127.0.0.1:4523/m1/1581805-0-default/login
+INFO     root:my_log.py:44 method:post
+INFO     root:my_log.py:44 params:{'username': 'admin', 'password': 'admin'}
+INFO     root:my_log.py:44 expected_result:{'code': 200}
+INFO     root:my_log.py:44 Actual results：{'code': 200, 'username': 'admin', 'password': 'admin', 'user_id': '10001', 'cookie': '1d234b6b-2E22-ffAD-d7E2-41b07CCdBf5F'}
+INFO     root:my_log.py:44 测试结果：测试通过
+INFO     root:my_log.py:44 ========================================用例执行结束========================================

@@ -1,0 +1,18 @@
+-
+  case: 管理员身份成功登陆
+  url: http://127.0.0.1:4523/m1/1581805-0-default/login
+  method: post
+  params:
+    username: 'admin'
+    password: 'admin'
+  expected_result:
+    code: 200
+-
+  case: 普通用户身份成功登陆
+  url: http://127.0.0.1:4523/m1/1581805-0-default/login
+  method: post
+  params:
+    username: '18312182420'
+    password: '123456'
+  expected_result:
+    code: 200

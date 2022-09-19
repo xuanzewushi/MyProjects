@@ -1,0 +1,10 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4523 "GET /m1/1581805-0-default/finduserdata HTTP/1.1" 200 112
+INFO     root:my_log.py:44 ========================================用例执行结束========================================
+INFO     root:my_log.py:44 case:成功获取管理员数据
+INFO     root:my_log.py:44 url:http://127.0.0.1:4523/m1/1581805-0-default/finduserdata
+INFO     root:my_log.py:44 method:get
+INFO     root:my_log.py:44 headers:{'user_id': '10001'}
+INFO     root:my_log.py:44 expected_result:{'code': 200}
+INFO     root:my_log.py:44 Actual results：{'code': 200, 'username': 'admin', 'user_id': 10001, 'data': {'Lv': '3', 'senddata': '1', 'nanimalcount': '1', 'status': '3'}}
+INFO     root:my_log.py:44 测试结果：测试通过
+INFO     root:my_log.py:44 ========================================用例执行结束========================================

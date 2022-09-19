@@ -1,0 +1,10 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4523 "GET /m1/1581805-0-default/get/data HTTP/1.1" 200 34
+INFO     root:my_log.py:44 ========================================用例执行结束========================================
+INFO     root:my_log.py:44 case:必传参数为空，返回404
+INFO     root:my_log.py:44 url:http://127.0.0.1:4523/m1/1581805-0-default/get/data
+INFO     root:my_log.py:44 method:get
+INFO     root:my_log.py:44 params:{'user_id': None}
+INFO     root:my_log.py:44 expected_result:{'code': 404}
+INFO     root:my_log.py:44 Actual results：{'code': 404, 'message': 'Not found'}
+INFO     root:my_log.py:44 测试结果：测试通过
+INFO     root:my_log.py:44 ========================================用例执行结束========================================
